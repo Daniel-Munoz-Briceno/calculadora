@@ -20,7 +20,7 @@
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:background="#1000"
-            android:text="0"
+            android:text=""
             android:textSize="24sp" />
     </LinearLayout>
 
@@ -31,13 +31,13 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/SP"
+            android:id="@+id/DMB"
             android:background="@drawable/bordes_redondos"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="20dp"
             android:layout_weight="1"
-            android:text="@string/porcentaje"
+            android:text=":)"
             android:textSize="24sp" />
 
         <Button
@@ -221,13 +221,13 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/SMM"
+            android:id="@+id/DMB2"
             android:background="@drawable/bordes_redondos"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="20dp"
             android:layout_weight="1"
-            android:text="@string/SMM"
+            android:text=":("
             android:textSize="24sp" />
 
         <Button
